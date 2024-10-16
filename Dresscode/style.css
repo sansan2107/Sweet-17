@@ -1,0 +1,101 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center everything inside the body */
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container for all content */
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Main heading styling */
+.heading {
+    font-size: 2.5rem;
+    color: rgb(224, 114, 141);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* Underline effect for heading */
+.heading::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-image: url(https://www.beyondcss.dev/underline.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+/* Subtitle styling */
+.subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Section styles */
+section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* Section titles */
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Outfit choice styles */
+.outfit-choice {
+    margin-bottom: 20px;
+}
+
+/* Gallery of images */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    width: 30%; /* Each image takes 30% of the gallery's width */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Outfit titles */
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
