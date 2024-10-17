@@ -20,10 +20,10 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
                 window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Lie/envelope-Lie.html';
                 break;
             case 'agatha':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Agatha/envelope-Agatha.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Agatha/envelope-Agatha.html';
                 break;
             case 'hana':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Hana/envelope-Hana.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Agatha/envelope-Hana.html';
                 break;
             case 'ketrin':
                 window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Ketrin/envelope-Ketrin.html';
