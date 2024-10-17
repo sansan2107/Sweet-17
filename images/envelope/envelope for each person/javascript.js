@@ -7,42 +7,42 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
     console.log('Entered name:', name); // Debugging log
 
     // List of acceptable names (case insensitive)
-    const acceptedNames = ['Geca', 'Ema', 'Lie', 'Agatha', 'Hana', 'Ketrin', 'Wawa', 'Kheren', 'Isna', 'Andrio','Tyo'];
+    const acceptedNames = ['Geca', 'Ema', 'Lie', 'Agatha', 'Hana', 'Ketrin', 'Wawa', 'Kheren', 'Isna', 'Andrio', 'Tyo'];
 
     // Check if the entered name is in the accepted list
     if (acceptedNames.map(n => n.toLowerCase()).includes(name.toLowerCase())) {
         console.log('Name accepted'); // Debugging log
         switch (name.toLowerCase()) {
             case 'geca':
-            case 'ema':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Ema/envelope-Ema.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Ema/envelope-Ema.html';
                 break;
             case 'lie':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Lie/envelope-Lie.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Lie/envelope-Lie.html';
                 break;
             case 'agatha':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Agatha/envelope-Agatha.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Agatha/envelope-Agatha.html';
                 break;
             case 'hana':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Hana/envelope-Hana.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Hana/envelope-Hana.html';
                 break;
             case 'ketrin':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Ketrin/envelope-Ketrin.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Ketrin/envelope-Ketrin.html';
                 break;
             case 'wawa':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Wawa/envelope-Wawa.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Wawa/envelope-Wawa.html';
                 break;
             case 'kheren':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Kheren/envelope-Kheren.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Kheren/envelope-Kheren.html';
                 break;
             case 'isna':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Isna/envelope-Isna.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Isna/envelope-Isna.html';
                 break;
             case 'andrio':
-                window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20ka%20Andrio/envelope-Ka%20A.html';
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope ka Andrio/envelope-Ka A.html';
+                break;
             case 'tyo':
-                    window.location.href = 'file:///C:/Users/USER/OneDrive/Desktop/coding/html%202.0/images/envelope/envelope%20Tyo/envelope-Tyo.html';
-                    break;
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Tyo/envelope-Tyo.html';
+                break;
             default:
                 console.error('Unexpected case'); // Debugging log
                 alert('Error 404.');
