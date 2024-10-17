@@ -1,4 +1,4 @@
-document.getElementById('nameForm').addEventListener('submit', function(event) {
+document.getElementById('nameForm').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent the form from submitting normally
     console.log('Form submitted'); // Debugging log
 
@@ -14,8 +14,6 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
         console.log('Name accepted'); // Debugging log
         switch (name.toLowerCase()) {
             case 'geca':
-                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Ema/envelope-Ema.html';
-                break;
             case 'ema':
                 window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Ema/envelope-Ema.html';
                 break;
