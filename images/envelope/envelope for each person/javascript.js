@@ -7,7 +7,7 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
     console.log('Entered name:', name); // Debugging log
 
     // List of acceptable names (case insensitive)
-    const acceptedNames = ['Geca', 'Ema', 'Lie', 'Agatha', 'Hana', 'Ketrin', 'Wawa', 'Kheren', 'Isna', 'Andrio'];
+    const acceptedNames = ['Geca', 'Ema', 'Lie', 'Agatha', 'Hana', 'Ketrin', 'Wawa', 'Kheren', 'Isna', 'Andrio', 'Tyo'];
 
     // Check if the entered name is in the accepted list
     if (acceptedNames.map(n => n.toLowerCase()).includes(name.toLowerCase())) {
@@ -39,6 +39,8 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
                 break;
             case 'andrio':
                 window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope ka Andrio/envelope-Ka A.html';
+            case 'tyo':
+                window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Tyo/envelope-Tyo.html';
                 break;
             default:
                 console.error('Unexpected case'); // Debugging log
