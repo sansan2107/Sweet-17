@@ -13,7 +13,8 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
     if (acceptedNames.map(n => n.toLowerCase()).includes(name.toLowerCase())) {
         console.log('Name accepted'); // Debugging log
         switch (name.toLowerCase()) {
-            case 'geca' 'ema':
+            case 'geca':
+            case 'ema':
                 window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Ema/envelope-Ema.html';
                 break;
             case 'lie':
