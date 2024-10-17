@@ -7,13 +7,13 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
     console.log('Entered name:', name); // Debugging log
 
     // List of acceptable names (case insensitive)
-    const acceptedNames = ['Geca', 'Lie', 'Agatha', 'Hana', 'Ketrin', 'Wawa', 'Kheren', 'Isna', 'Andrio'];
+    const acceptedNames = ['Geca', 'Ema', 'Lie', 'Agatha', 'Hana', 'Ketrin', 'Wawa', 'Kheren', 'Isna', 'Andrio'];
 
     // Check if the entered name is in the accepted list
     if (acceptedNames.map(n => n.toLowerCase()).includes(name.toLowerCase())) {
         console.log('Name accepted'); // Debugging log
         switch (name.toLowerCase()) {
-            case 'geca':
+            case 'geca' 'ema':
                 window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Ema/envelope-Ema.html';
                 break;
             case 'lie':
