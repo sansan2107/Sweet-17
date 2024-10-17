@@ -39,6 +39,7 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
                 break;
             case 'andrio':
                 window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope ka Andrio/envelope-Ka A.html';
+                break;
             case 'tyo':
                 window.location.href = 'https://sansan2107.github.io/Sweet-17/images/envelope/envelope Tyo/envelope-Tyo.html';
                 break;
