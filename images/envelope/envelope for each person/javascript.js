@@ -7,7 +7,7 @@ document.getElementById('nameForm').addEventListener('submit', function(event) {
     console.log('Entered name:', name); // Debugging log
 
     // List of acceptable names (case insensitive)
-    const acceptedNames = ['Geca', 'Ema', 'Lie', 'Agatha', 'Hana', 'Ketrin', 'Wawa', 'Kheren', 'Isna', 'Andrio'];
+    const acceptedNames = ['Ema', 'Lie', 'Agatha', 'Hana', 'Ketrin', 'Wawa', 'Kheren', 'Isna', 'Andrio'];
 
     // Check if the entered name is in the accepted list
     if (acceptedNames.map(n => n.toLowerCase()).includes(name.toLowerCase())) {
