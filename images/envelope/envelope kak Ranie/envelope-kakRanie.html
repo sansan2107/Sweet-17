@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div style="text-align: center; font-size: 8px;">
+                        <strong>Hey kak Ranie & partner !!</strong>
+                        <p>
+                            <strong>You're invited to Sandra's Sweet 17 Birthday!</strong><br>
+                            <br>I appreciate you so much, and I can't wait to celebrate this special occasion together!
+                            It's going to be an unforgettable evening. Looking forward to celebrating this special day with you! <br>
+                            <br> In <strong> Pizza Hut at 06:00 PM until 08:00 PM on Monday, 21st October 2024 </strong>
+                                                                 <br>Warm regards,<br>
+                                                                      <em>Sandra</em>                                      
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
